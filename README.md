@@ -1,1 +1,1 @@
-# home-care
+This file is for education porposes only.
