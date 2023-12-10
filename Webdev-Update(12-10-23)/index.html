@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="assets/main-icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c70ea07f30.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <title>Primary Providers | Home Care</title>
+</head>
+<body>
+
+    <nav class="regular-nav">
+        <ul>
+            <li><a href="#" class="home"><i class="fa-solid fa-house-chimney fa-bounce"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i>About Us</a></li>
+            <li><a href="#"><i class="fa-solid fa-heart-circle-plus"></i>Services</a></li>
+            <li><a href="#"><i class="fa-solid fa-handshake"></i>Career</a></li>
+            <li><a href="#"><i class="fa-sharp fa-solid fa-receipt"></i>Resources</a></li>
+            <li><a href="#"><i class="fa-solid fa-phone-volume"></i>Contact Us</a></li>
+        </ul>
+        <div class="gtranslate">
+            <div id="google_translate_element"></div>
+        </div>
+    </nav>
+
+    <div class="overlay" onclick="closeNav()"></div>
+    <nav class="nav-container">
+        <button class="close-btn" onclick="closeNav()">&times;</button>
+        <ul>
+            <li><a href="#" class="home"><i class="fa-solid fa-house-chimney fa-bounce"></i>&nbsp; Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-users"></i>&nbsp; About Us</a></li>
+            <li><a href="#"><i class="fa-solid fa-heart-circle-plus"></i>&nbsp; Services</a></li>
+            <li><a href="#"><i class="fa-solid fa-handshake"></i>&nbsp; Career</a></li>
+            <li><a href="#"><i class="fa-sharp fa-solid fa-receipt"></i>&nbsp; Resources</a></li>
+            <li><a href="#"><i class="fa-solid fa-phone-volume"></i>&nbsp; Contact Us</a></li>
+        </ul>
+        <div class="gtranslate">
+            <div id="google_translate_element"></div>
+        </div>
+    </nav>
+    
+    <div class="main-bgIMG">
+    <button class="hamburger-menu" onclick="openNav()">&#9776;</button>
+        <div class="logo-container">
+            <img src="assets/main-bgIMG.png" alt="logo" id="logo">
+            <span class="logo-details"><h3 class="logo-details">PRIMARY PROVIDERS</h3></span>
+            <span id="home-care">HOME CARE</span>
+        </div>
+
+        <div class="second-details">
+            <span class="Rcare-details">The Right Care for</span>
+            <span class="Optmzd-details">Optimized</span>
+            <span class="Healt-details">Health</span>
+            <button class="set-app">Set an Appointment &nbsp; &#x1F806;</button>
+        </div>
+            <button class="prev-button" onclick="changeBackground('prev')"><i class="fa-solid fa-chevron-right fa-rotate-180"></i></button>
+            <button class="next-button" onclick="changeBackground('next')"><i class="fa-solid fa-chevron-right"></i></button>
+
+            <div class="second-page">
+                <span>Service We Offer</span>
+            </div>
+
+        </div>
+
+        
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+<script defer src="main.js"></script>
+</html>
